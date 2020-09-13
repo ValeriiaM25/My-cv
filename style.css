@@ -1,0 +1,70 @@
+/* RESET Styles */
+body, p {
+    margin: 0;
+}
+
+/* BASE */
+* {
+    box-sizing: border-box;
+} 
+
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 10px;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+}
+
+.user-photo {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #FEFEFE;
+    border-radius: 50%;
+}
+
+/* Left Side */
+.left-side {
+    float: left;
+    width: 400;
+    padding: 20px;
+    background-color: #072339;
+    color: #FEFEFE;
+}
+
+.left-side-card > p {
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    background-color: #001429
+}
+
+hr {
+    width: 150px;
+}
+
+/* Right Side */
+.right-side {
+    padding-left: 50px;
+}
+
+table {
+padding: 20px 150px 20px 150px;
+}
+
+h2.right-side {
+text-align: center;
+padding-top: 20px;
+}
+
+td{
+    padding-left: 40px;
+}
